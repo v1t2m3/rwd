@@ -1,0 +1,198 @@
+* {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+}
+body {
+}
+header {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      height: max-content;
+      align-content: center;
+      width: 100%;
+      padding: 20px;
+      background-image: url(http://dongdomobile.vn/wp-content/uploads/2014/09/Blue-background-highlights-wallpapers_2560x1600.jpg);
+      background-position: left top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: space-between;
+}
+.logo {
+      display: flex;
+      align-items: center;
+}
+.logo span {
+      font-size: x-large;
+      padding-left: 10px;
+      color: rgb(83, 83, 83);
+}
+.logo img {
+      height: 30px;
+      width: auto;
+      transition: 0.25s ease;
+}
+.logo img:hover {
+      transform: scale(1.5);
+}
+.menu ul {
+      display: flex;
+      align-items: center;
+      height: 100%;
+}
+.menu ul li {
+      display: flex;
+      height: 30px;
+      padding: 0px 15px;
+      align-content: center;
+      height: max-content;
+      display: inline-block;
+}
+.menu ul li:hover {
+      color: blueviolet;
+      cursor: pointer;
+}
+
+.login {
+      display: flex;
+      width: 70px;
+      align-items: center;
+      justify-content: space-between;
+}
+.login:hover {
+      color: blueviolet;
+      cursor: pointer;
+}
+.icon-login ion-icon {
+      display: flex;
+      align-items: center;
+}
+section {
+      display: flex;
+      flex-direction: row;
+}
+.left-aside {
+      width: 15vw;
+      height: calc(100vh - 70px - 100px);
+      background-color: rgba(209, 209, 209, 0.5);
+}
+.left-aside p {
+      text-align: center;
+      font-size: 15px;
+      padding: 15px;
+}
+.city {
+      font-size: 12px;
+      display: flex;
+      list-style: none;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+}
+.city li {
+      padding: 15px 15px;
+      width: 100%;
+}
+.city li:hover {
+      background-color: rgba(151, 218, 252, 0.95);
+      cursor: pointer;
+}
+article {
+      padding: 20px;
+      width: 70vw;
+      height: calc(100vh - 70px - 100px);
+      font-size: x-large;
+}
+
+aside img {
+      height: auto;
+      width: 100%;
+}
+.right-aside {
+      width: 15vw;
+      height: calc(100vh - 70px - 100px);
+      background-color: rgba(209, 209, 209, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+}
+.product {
+      position: relative;
+      margin-top: 10px;
+      height: max-content;
+      width: 100%;
+}
+.name {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 0px;
+      height: 100%;
+      font-size: 0px;
+      transition: 0.5s ease;
+}
+.product:hover .name {
+      padding: 15px;
+      width: 100%;
+      font-size: 20px;
+      background-color: rgba(240, 255, 255, 0.8);
+}
+
+.electric-motor {
+      position: relative;
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
+}
+.electric-car {
+      position: relative;
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
+}
+footer {
+      height: 100px;
+      width: 100vw;
+      background-image: url(http://dongdomobile.vn/wp-content/uploads/2014/09/Blue-background-highlights-wallpapers_2560x1600.jpg);
+      background-position: left top;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+/* ------------------------------------ */
+@media screen and (max-width: 768px) {
+      .menu ul {
+            position: absolute;
+            top: 70px;
+            left: -100%;
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+            height: max-content;
+            background-color: rgba(151, 218, 252, 0.95);
+            z-index: 9;
+            transition: 0.25 ease;
+      }
+      .logo img:hover .menu ul {
+            left: 0px;
+      }
+      .menu ul li {
+            height: 40px;
+            width: max-content;
+      }
+      .login {
+            position: relative;
+            right: 0px;
+      }
+      .left-aside {
+            display: none;
+      }
+      .right-aside {
+            width: 25vw;
+      }
+      article {
+            width: 75vw;
+      }
+}
