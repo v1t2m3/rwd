@@ -1,0 +1,249 @@
+/* .griddd {
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-template-rows: 50px 50px 50px 50px 50px;
+      background-color: bisque;
+      gap: 5px;
+      padding: 5px;
+      justify-content: center;
+}
+.grid-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: white;
+}
+.item1 {
+      grid-column: 1 / span 3;
+      background-color: aqua;
+}
+.item2 {
+      grid-row: 2 / span 2;
+      background-color: blueviolet;
+}
+.item3 {
+      background-color: cornflowerblue;
+}
+.item4 {
+      background-color: darkgoldenrod;
+}
+.item5 {
+      grid-column: 2 / span 2;
+      background-color: darkgoldenrod;
+}
+.item6 {
+      grid-column: 1 / span 2;
+      background-color: darkgrey;
+}
+.item7 {
+      background-color: darkolivegreen;
+}
+.item8 {
+      grid-column: 1 / span 3;
+      background-color: darkred;
+} */
+
+/* ============================== */
+
+/* .gridd {
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+      grid-template-rows: 50px 50px 50px 50px;
+      grid-template-areas:
+            "a1 a1 a2 a2 a2 a3 a3 a3 a3 a4 a4"
+            "a5 a5 a2 a2 a2 a3 a3 a3 a3 a6 a6"
+            "a7 a7 a8 a9 a9 a3 a3 a3 a3 a10 a10"
+            "a11 a11 a11 a11 a11 a3 a3 a3 a3 a12 a12";
+      background-color: bisque;
+      gap: 2px;
+      padding: 5px;
+      justify-content: center;
+}
+.grid-item_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: white;
+}
+.item_1 {
+      grid-area: a1;
+      background-color: yellowgreen;
+}
+.item_2 {
+      grid-area: a2;
+      background-color: pink;
+}
+.item_3 {
+      grid-area: a3;
+      background-color: orangered;
+}
+.item_4 {
+      grid-area: a4;
+      background-color: yellow;
+}
+.item_5 {
+      grid-area: a5;
+      background-color: green;
+}
+.item_6 {
+      grid-area: a6;
+      background-color: grey;
+}
+.item_7 {
+      grid-area: a7;
+      background-color: lawngreen;
+}
+.item_8 {
+      grid-area: a8;
+      background-color: green;
+}
+.item_9 {
+      grid-area: a9;
+      background-color: cyan;
+}
+.item_10 {
+      grid-area: a10;
+      background-color: cadetblue;
+}
+.item_11 {
+      grid-area: a11;
+      background-color: purple;
+}
+.item_12 {
+      grid-area: a12;
+      background-color: red;
+} */
+/* ============================== */
+
+.grid123 {
+      margin: 20px;
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+      grid-template-areas:
+            "a1 a2 a2 a2"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a3 a3 a3 a3"
+            "a4 a4 . a5"
+            "a4 a4 . a5"
+            "a4 a4 . a6"
+            "a4 a4 . a6"
+            "a7 a7 a7 a7"
+            "a7 a7 a7 a7";
+      background-color: white;
+      padding: 5px;
+      justify-content: center;
+}
+.grid-item__ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: white;
+}
+.item__1 {
+      grid-area: a1;
+      background-color: yellowgreen;
+}
+.item__2 {
+      grid-area: a2;
+      background-color: pink;
+}
+.item__3 {
+      grid-area: a3;
+      background-color: orangered;
+}
+.item__4 {
+      grid-area: a4;
+      background-color: yellow;
+}
+.item__5 {
+      grid-area: a5;
+      background-color: green;
+}
+.item__6 {
+      grid-area: a6;
+      background-color: grey;
+}
+.item__7 {
+      grid-area: a7;
+      background-color: lawngreen;
+}
+.item__8 {
+      grid-area: a8;
+      background-color: green;
+}
+.item_9 {
+      grid-area: a9;
+      background-color: cyan;
+}
+.item_10 {
+      grid-area: a10;
+      background-color: cadetblue;
+}
+.item_11 {
+      grid-area: a11;
+      background-color: purple;
+}
+.item__12 {
+      grid-area: a12;
+      background-color: red;
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media only screen and (max-width: 768px) {
+      .grid123 {
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-areas:
+                  "a1 a1 a1 a1"
+                  "a3 a3 a3 a3"
+                  "a3 a3 a3 a3"
+                  "a3 a3 a3 a3"
+                  "a3 a3 a3 a3"
+                  "a2 a4 a4 a4"
+                  "a2 a4 a4 a4"
+                  "a2 a4 a4 a4"
+                  "a2 a5 a5 a5"
+                  "a2 a5 a5 a5"
+                  "a2 a6 a6 a7"
+                  "a2 a6 a6 a7";
+      }
+      .grid-item__ {
+            font-size: 20px;
+      }
+}
+@media only screen and (max-width: 415px) {
+      .grid123 {
+            grid-template-columns: 95%;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-areas:
+                  "a1"
+                  "a2"
+                  "a3"
+                  "a3"
+                  "a4"
+                  "a4"
+                  "a5"
+                  "a5"
+                  "a6"
+                  "a6"
+                  "a7"
+                  "a7";
+      }
+      .grid-item__ {
+            font-size: 10px;
+      }
+}
